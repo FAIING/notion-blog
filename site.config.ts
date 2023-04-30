@@ -2,25 +2,25 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'c811c01b7d824f5ba966f688ee37652b',
+  rootNotionPageId: 'Pianke-f413a96fe5c34fdd925dce4e8d86d48e',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '老苗',
-  domain: 'laomiao.site',
-  author: '老苗',
+  name: 'Pianke',
+  domain: 'https://www.notion.so/keung/Pianke-f413a96fe5c34fdd925dce4e8d86d48e',
+  author: 'Pianke',
 
   // open graph metadata (optional)
   description: '专注技术、持续学习',
 
   // social usernames (optional)
-  twitter: 'laomiao_',
-  github: 'miaogaolin',
+  twitter: '',
+  github: 'FAIING',
   linkedin: '',
-  zhihu: 'fan-zhong-li-luo-xie',
+  zhihu: 'faikeung',
   language: 'zh',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -56,7 +56,7 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: '9d3cf695ba0f44e787fb3f9e6aa9fd25'
+      pageId: 'About-8c594e5e9e3e420d8da7882f91160263'
     }
   ]
   // navigationLinks: [
